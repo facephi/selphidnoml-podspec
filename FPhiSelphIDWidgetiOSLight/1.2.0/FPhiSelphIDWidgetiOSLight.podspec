@@ -30,8 +30,8 @@ Pod::Spec.new do |spec|
 
   # Removed architecture for simulator
 
-  spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64','i386' }
-  spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64','i386' }
+  spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
+  spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
 
   spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
   spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
