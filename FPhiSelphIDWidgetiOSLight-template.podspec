@@ -42,7 +42,7 @@ Pod::Spec.new do |spec|
   spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
   spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
   
-  spec.dependency "FPhiMBWidgetiOS", "6.9.2"
+  spec.dependency "FPhiMBWidgetiOS", "6.11.0"
   spec.dependency "zipzap"
 
 end
