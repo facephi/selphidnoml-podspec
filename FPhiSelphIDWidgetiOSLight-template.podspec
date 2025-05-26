@@ -43,7 +43,7 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
   
   spec.dependency "FPhiMBWidgetiOS", "6.13.0"
-  spec.dependency 'FPHILicenseManager', '~> 0.4.0'
+  spec.dependency 'FPHILicenseManager', '~> 0.5.0'
   spec.dependency "zipzap"
 
 end
